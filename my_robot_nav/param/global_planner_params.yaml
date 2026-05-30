@@ -1,0 +1,11 @@
+GlobalPlanner:
+  old_navfn_behavior: false
+  use_quadratic: true
+  use_grid_path: false
+  allow_unknown: true
+  
+  # ==========================================
+  # true 是 Dijkstra，false 是 A*
+  # ==========================================
+  use_dijkstra: true
+  visualize_potential: true
