@@ -53,22 +53,7 @@
    ```bash
    git clone https://github.com/你的用户名/Gazebo-Path-Planning-Comparison.git
 
-（1）启动仿真世界
-export TURTLEBOT3_MODEL=burger
-roslaunch my_robot_nav simulation.launch
-（2）启动导航系统
-roslaunch my_robot_nav navigation.launch
-（3）运行数据监测脚本
-python3 scripts/trace_recorder.py
-6. 项目结构
-.
-├── my_robot_nav/
-│   ├── launch/      # 启动文件
-│   ├── maps/        # SLAM 生成的 .yaml 和 .pgm 地图
-│   ├── param/       # Dijkstra/A* 及 DWA 核心配置文件
-│   ├── scripts/     # 自定义 Python 测量与轨迹记录脚本
-│   └── worlds/      # Gazebo 实验室场景模型文件
-└── images/          # README 引用图片
+
 
 
 
